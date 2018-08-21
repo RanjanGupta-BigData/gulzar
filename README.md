@@ -2,19 +2,27 @@
 
 Cross platform program to implement the gulzar poetry algorithm.  Could be run as a docker container and deployed for scale on kubernetes pods, but I leave that upto others.
 
+![Algorithm explanation](algo-explanation.jpeg)
+
 ## For go developers
 
-`git clone https://github.com/sathishvj/gulzar`
-`cd gulzar`
-`go run main.go`
+```bash
+git clone https://github.com/sathishvj/gulzar
+cd gulzar
+go run main.go
+```
 
-Or
+OR
 
-`go build && ./gulzar`
+```bash
+go build && ./gulzar
+```
 
 Takes -c as a parameter for number of lines of shaayari.  Default is 10.
 
-`./gulzar -c 30`
+```bash
+./gulzar -c 30
+```
 
 ## Sample Output
 
