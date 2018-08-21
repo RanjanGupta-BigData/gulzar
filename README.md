@@ -4,7 +4,7 @@ Cross platform program to implement the gulzar poetry algorithm.  Could be run a
 
 ## For go developers
 
-`git clone github.com/sathishvj/gulzar`
+`git clone https://github.com/sathishvj/gulzar`
 `cd gulzar`
 `go run main.go`
 
