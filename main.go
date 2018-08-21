@@ -54,7 +54,6 @@ var movementOfUFO = []string{
 func main() {
 	count := flag.Int("c", 10, "number of lines of shaayari, default 10")
 	flag.Parse()
-	println(*count)
 	for i := 0; i < *count; i++ {
 		s := randWord(typeOfOscillation) + " hue " + randWord(facialFeature) + " se " + randWord(naturalPhenomena) + " ka " + randWord(thingsThatHappenInBathroom) + ",\n" + randWord(randomEmotion) + " hai mujhe tera wahi " + randWord(movementOfUFO) + "\n"
 		fmt.Println(s)
