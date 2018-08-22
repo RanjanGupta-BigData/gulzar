@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"math/rand"
+	"time"
 )
 
 var typeOfOscillation = []string{
@@ -61,6 +62,7 @@ func main() {
 }
 
 func randWord(a []string) string {
+	rand.Seed(time.Now().UTC().UnixNano())
 	r := rand.Int63n(int64(len(a)))
 	return a[r]
 }
