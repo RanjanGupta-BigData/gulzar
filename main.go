@@ -11,6 +11,9 @@ var typeOfOscillation = []string{
 	"Thiraktey",
 	"Simat-tey",
 	"Jhulastey",
+	"Lachaktey",
+	"Jhukey",
+	"Machaltey",
 }
 
 var facialFeature = []string{
@@ -19,6 +22,8 @@ var facialFeature = []string{
 	"Nainon",
 	"Gaalon",
 	"Maathey",
+	"Labon",
+	"Zulfon",
 }
 
 var naturalPhenomena = []string{
@@ -26,6 +31,7 @@ var naturalPhenomena = []string{
 	"Oas",
 	"Baarish",
 	"Hawa",
+	"Leheron",
 }
 
 var thingsThatHappenInBathroom = []string{
@@ -36,6 +42,11 @@ var thingsThatHappenInBathroom = []string{
 	"Sulajhna",
 	"Nikalna",
 	"Sawarna",
+	"Bikharna",
+	"Behekna",
+	"Sambhalna",
+	"Sisakna",
+	"Barasna",
 }
 
 var randomEmotion = []string{
@@ -43,6 +54,8 @@ var randomEmotion = []string{
 	"Darata",
 	"Hasata",
 	"Rulata",
+	"Lubhata",
+	"Tadpata",
 }
 
 var movementOfUFO = []string{
@@ -50,6 +63,7 @@ var movementOfUFO = []string{
 	"Paas aana",
 	"Roshni Phailana",
 	"Gumm ho jaana",
+	"Afsana",
 }
 
 func main() {
